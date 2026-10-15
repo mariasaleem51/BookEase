@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BookEase" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#7053DB</item>
+        <item name="colorPrimaryVariant">#5B3FD7</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <!-- Ye wali theme system default background ko hata de gi -->
+    <style name="Theme.BookEase.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Window background ko transparent ya white kr dain -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

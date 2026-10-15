@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/imgSignUpLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerInside"
+        android:contentDescription="Logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#1A1A1A"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="28dp"
+        android:text="Sign up to get started with Book Ease"
+        android:textColor="#6C757D"
+        android:textSize="14sp" />
+
+    <!-- Full Name Field -->
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_rounded_input"
+        android:hint="Full Name"
+        android:textColorHint="#6C757D"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="16dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <!-- Email Address Field -->
+    <EditText
+        android:id="@+id/etRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_rounded_input"
+        android:hint="Email Address"
+        android:textColorHint="#6C757D"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="16dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_rounded_input"
+        android:hint="Password"
+        android:textColorHint="#6C757D"
+        android:inputType="textPassword"
+        android:paddingHorizontal="16dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <!-- Sign Up Button (Text remains White) -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#7053DB"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Back to Login Text Link -->
+    <TextView
+        android:id="@+id/tvBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Already have an account? Login"
+        android:textColor="#7053DB"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
